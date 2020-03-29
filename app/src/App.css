@@ -1,0 +1,49 @@
+body {
+  background-color: black;
+  color: white;
+}
+header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 3%;
+}
+
+nav {
+  display: flex;
+  width: 40%;
+  justify-content: space-around;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+footer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+}
+.ft-links {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+}
+.phrase-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  margin-top: 30%;
+  font-size: 30px;
+}
+.portfolio-component {
+  margin-top: 2%;
+}
+.project-container {
+  border: 1px solid magenta;
+  margin-top: 2%;
+  padding: 2%;
+}
